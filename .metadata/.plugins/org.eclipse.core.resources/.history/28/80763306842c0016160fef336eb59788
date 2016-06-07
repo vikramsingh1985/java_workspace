@@ -1,0 +1,12 @@
+package testing;
+
+public class ClassA {
+	public static void dispaly(){
+		System.out.println("super class method ");
+	}
+	
+	public void print(){
+		System.out.println("print method of class A:");
+	}
+
+}

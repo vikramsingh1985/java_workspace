@@ -1,0 +1,27 @@
+package testing;
+
+import java.util.regex.Pattern;
+
+public class Subclass extends ClassA{	
+	public static void display(){
+		System.out.println("sub calss method:");
+	}
+	public void print(){
+		System.out.println("print sub class method : ");
+	}
+	public void print(String str){
+		Pattern p = Pattern.compile("-?\\d+");
+		
+	}
+	public static void main(String[] args) {
+		ClassA a1 = new ClassA();
+		ClassA a2 = new Subclass();
+		a1.dispaly();
+		a2.dispaly();
+				
+		a1.print();
+		a2.print();
+	}
+	
+
+}

@@ -1,0 +1,27 @@
+package testing;
+
+import java.lang.reflect.Array;
+
+public class JaggedArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int size = 5;
+		int arr[][]= new int[size][];
+		int count=0;
+		// creating inner array
+		for(int i=0;i<=arr.length;i++){
+			arr[i]= new int[i+1];
+		}
+		// initializing array
+       for(int i=0;i<arr.length;i++)
+    	   for(int j=0;j<arr[i].length;j++)
+    		   arr[i][j]= count++;
+       // displaying array elements
+       for(int i=0;i<arr.length;i++)
+    	   for(int j=0;j<arr[i].length;j++)
+    		   System.out.println(arr[i][j]);
+	}
+
+}

@@ -1,0 +1,21 @@
+package testing;
+
+public class StackClass {
+	
+	static class MyStack<E>{
+		private int size =0;
+		private int DEFAULT_SIZE = 10;
+		private Object elements[];
+		
+		private MyStack(){
+			elements = new Object[DEFAULT_SIZE];
+		}
+		
+		public void push(E e){
+			if()
+			
+		}
+		
+	}
+
+}

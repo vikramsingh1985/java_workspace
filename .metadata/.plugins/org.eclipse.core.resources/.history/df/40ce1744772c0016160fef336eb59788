@@ -1,0 +1,15 @@
+package testing;
+
+public class Subclass extends ClassA{	
+	public static void display(){
+		System.out.println("sub calss method:");
+	}
+	public static void main(String[] args) {
+		ClassA a1 = new ClassA();
+		ClassA a2 = new Subclass();
+		a1.dispaly();
+		a2.dispaly();
+	}
+	
+
+}
