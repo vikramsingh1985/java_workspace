@@ -5,6 +5,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/wigzo/workspace/java-workspace/java_workspace/JavaBasics-master"/>
 			<item value="/home/wigzo/workspace/java-workspace/java_workspace/Testing"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
