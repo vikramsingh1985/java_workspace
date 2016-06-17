@@ -6,6 +6,7 @@ public class Inheritance {
 		PapaInterface2 p2 = new BachhaImpl();
 		
 		p1.test();
+		p1.display();
 		p2.test();*/
 		
 		/*Papa p = new Papa();
@@ -14,11 +15,11 @@ public class Inheritance {
 		Bachha b = new Bachha();
 		b.test();*/
 		
-		/*Papa pb = new Bachha();
-		pb.test();*/
+		Papa pb = new Bachha();
+		pb.test();
 	
-		PapaAbs pabs = new BachhaAbs();
-		pabs.test();
+		/*PapaAbs pabs = new BachhaAbs();
+		pabs.test();*/
 	}
 }
 
@@ -42,6 +43,7 @@ class BachhaAbs extends PapaAbs {
 
 interface PapaInterface1 {
 	void test();
+	void display();
 }
 
 interface PapaInterface2 {
@@ -52,6 +54,12 @@ class BachhaImpl implements PapaInterface1, PapaInterface2 {
 	@Override
 	public void test() {
 		System.out.println("BachhaImpl test.");
+	}
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+		System.out.println("display BachhaImpl");
 	}
 }
 
